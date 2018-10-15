@@ -9,7 +9,38 @@
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
  
-<body>
+  <form>
+    <fieldset>
+      <label for="input_creator">CREATOR:</label>
+      <input id="input_creator" name="creator" type="text" autofocus placeholder="Enter Your Name">
+    </fieldset>
+
+    <fieldset>
+      <label for="input_color">COLOR:</label>
+        <select id="input_color">
+          <option value="1">Red</option>
+          <option value="2">Green</option>
+          <option value="3">Yellow</option>
+          <option value="4">Blue</option>
+          <option value="5">Orange</option>
+          <option value="6">Black</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+      <label for="input_shape">SHAPE:</label>
+      <input id="input_shape" name="creator" type="text" autofocus placeholder="Animal, Vehicle, Building, etc">
+    </fieldset>
+
+    <fieldset>
+      <label for="input_creation">CREATION:</label>
+      <input id="input_creation" name="creator" type="text" autofocus placeholder="Black Cow, Lighthouse, MacBook, etc">
+    </fieldset>
+
+    <button class="saveInputs">Save Your Creation</button>
+  </form>
+
+  <body>
  
  
   <script src="data.js"></script>
